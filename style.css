@@ -1,0 +1,634 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --spotifycolor: #000000  ;
+    --spotifycolor2: #121212 ;
+    --spotifycolor3: #1F1F1F ;
+}
+
+
+.main{
+    width: 1366px;
+    height: 633px;
+    background-color:#000000;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: var(--spotifycolor);
+    display: flex;
+}
+
+.logo{
+    width: 250px;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 28px;
+    cursor: pointer;
+}
+
+.logo i{
+    font-size: 33px;
+    color: white;
+    transform: rotate(2deg);
+}
+
+.searchbar{
+    width: 900px;
+    height: 100%;
+    padding-left: 182px;
+    padding-top: 10px;
+}
+
+.searchbar2{
+    width: 530px;
+    height: 85%;
+    display: flex;
+    gap: 10px;
+}
+
+.search:hover{
+    border: 1px solid #a1a1a1 ;
+}
+
+.home{
+    width: 48px;
+    height: 100%;
+    background-color:#282828;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 12px;
+}
+
+.home i{
+    font-size: 22px;
+    color:  rgb(196, 194, 194);
+}
+
+.home:hover {
+    transform: scale(1.03);
+}
+
+.search{
+    width: 482px;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.searchicon{
+    width: 50px;
+    height: 100%;
+    padding-top: 12px;
+    padding-left: 12px;
+    background-color:#282828;
+    border-radius: 20px 0px 0px 20px ;
+    
+}
+
+.searchicon i{
+    font-size: 25px;
+    color: rgb(196, 194, 194) ;
+    transition: 0.1s;
+}
+
+.searchicon:hover i{
+    color: white;
+}
+
+.searchtext{
+    width: 370px ;
+
+}
+
+.searchtext input{
+      width: 370px;
+      height: 100%;
+      background-color:#282828;
+      border: none;
+      font-size: 17px;
+      font-weight: 500;
+      color:#B3AE90 ;
+}
+
+.browse{
+    padding-top: 13px;
+    padding-left: 13px;
+    width: 50px;
+    background-color:#282828;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.browse i{
+    font-size: 20px;
+    color: rgb(255, 255, 255) ;
+    
+}
+
+
+.button{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.buttonsu{
+    width: 150px;
+    height: 100%;
+    padding-top: 23px;
+    padding-left: 63px;
+    cursor: pointer;
+}
+
+.buttonsu button{
+    width: 80px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(156, 155, 155) ;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.buttonsu button:hover{
+    font-size: 16px;
+    color: white;
+}
+
+.buttonli{
+    width: 110px;
+    height: 100%;
+    padding-top: 8px;
+    padding-left: 5px;
+    
+}
+
+.buttonli button{
+    width: 108px;
+    height: 88%;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonli button:hover {
+    background-color:  rgb(199, 194, 194) ;
+    transform: scale(1.04);
+}
+
+.bodysection{
+    width: 100%;
+    height: 500px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    
+}
+
+.body2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 8px;
+}
+
+.leftsection{
+    width: 420px;
+    height: 100%;
+    background-color: #121212;
+    border-radius: 10px;
+}
+.rightsection{
+    width: 930px;
+    height: 100%;
+    background-color:#121212;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.yourlibrary{
+    width: 100%;
+    height: 75px;
+    background-color:#121212;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.collapse{
+    width: 60px;
+    height: 100%;
+    font-size: 25px;
+    color: #a19e9e;
+    padding-left: 24px;
+    transition: 0.5s;
+}
+
+.collapse:hover{
+    color: white;
+}
+
+.yourlibrarytext{
+    width: 300px;
+    height: 100%;
+    color: #a19e9e;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 2px;
+    transition: 0.5s;
+}
+
+.yourlibrarytext:hover{
+    color: white;
+}
+
+.plusicon{
+    width: 60px ;
+    height: 100%;
+    font-size: 18px;
+    color: #a19e9e;
+    padding-left: 17px;
+    padding-top: 3px;
+}
+
+.plusicon:hover{
+    color: white;
+}
+
+.yourlibrarymiddle{
+    width: 100%;
+    height: 205px;
+    background-color:#121212;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+    overflow-y: scroll;
+}
+
+.CYFP{
+    width: 100%;
+    height: 140px;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+}
+.CYFP h4{
+    color: white;
+    padding-top: 20px;
+    padding-left: 15px;
+    letter-spacing: 0px;
+}
+
+.span{
+    font-size: 14px;
+    font-weight: 600;
+   padding-top: 10px;
+    padding-left: 16px;
+    color: white;
+}
+
+.CYFP button{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.CYFP button:hover{
+    color: #000000;
+    background-color: rgb(214, 209, 209);
+}
+
+.CYFP2{
+    margin-top: 25px;
+}
+
+.bottomsec{
+        width: 100%;
+        height: 210px ;
+        background-color: #121212;
+        padding-left: 20px;
+        padding-top: 30px;
+}
+
+.text1{
+    display: flex;
+    gap: 20px;
+}
+
+.text1 div{
+    font-size: 12px;
+    color: #949090 ;
+}
+
+.text2{
+    padding-top: 14px;
+}
+
+.bottomsec h6{
+    font-size: 12px;
+    color: white;
+    padding-top: 15px;
+}
+
+
+.bottomsec button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #121212;
+    border: 1px solid  #7a7a7a  ;
+    color: white;
+    font-weight: 700;
+    margin-top: 40px;
+    
+}
+
+button:hover{
+    border: 1px solid white;
+   transform: scale(1.02);
+}
+
+.RStop{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rsleft{
+    width: 25%;
+    height: 100%;
+    padding-top: 16px;
+    padding-left: 22px;
+}
+
+.rsleft h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.rsleft h2:hover{
+    text-decoration: underline;
+}
+
+.rsright{
+    width: 25%;
+    height: 100%;
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 30px;
+   
+}
+
+.rsright h5{
+    font-weight: bold;
+    color: #a19e9e;
+    cursor: pointer;
+}
+
+.rsright h5:hover{
+    text-decoration: underline;
+}
+
+.popularsrtist{
+    width: 100%;
+    height: 250px;
+    background-color: #121212;
+    padding-left: 20px;
+    padding-right: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.popularartist6{
+    height: 280px;
+}
+
+.pritam{
+    width: 25%;
+    height: 95%;
+    padding-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.pritam3{
+    height: 230px;
+}
+
+.playbutton{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(7, 187, 7);
+    border-radius: 30px;
+    font-size:25px;
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 12px;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+.pritam:hover .playbutton{
+    opacity: 1;
+    top: 110px;
+}
+
+
+.pritam img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+   
+}
+
+.pritam h4{
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.pritam h4:hover{
+    text-decoration: underline;
+}
+
+.pritam h6{
+     color:  #a19e9e;
+     font-size: 14px;
+     font-weight: 800;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding-top: 7px;
+}
+
+.pritam:hover{
+    background-color: #333232;
+}
+
+.rsleft2{
+    width: 40%;
+}
+
+.pritam2 img{
+    border-radius: 0px;
+}
+
+.pritam3 h6{
+    padding-top: 0px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color:#121212;
+    padding-left: 25px;
+    padding-right: 20px;
+    display: flex;
+    gap: 10px;
+    /* border-bottom: 1px  solid #7a7a7a; */
+}
+
+.company{
+    width: 18%;
+    height: 230px;
+    padding-top: 20px;
+   
+    
+}
+
+.company h4{
+    font-size: 16px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.company li{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 580;
+    color: #a19e9e;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+li:hover{
+    font-size: 12px;
+    color: white;
+    text-decoration: underline;
+}
+
+.socialicons{
+    width: 240px;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+   justify-content: end;
+   padding-top: 40px;
+   gap: 20px;
+    padding-right: 20px;
+}
+
+.sis{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    background-color: #333232;
+}
+
+.sis:hover{
+     background-color: #7a7a7a;
+}
+
+.copyright{
+    width: 95%;
+    height: 140px;
+    background-color: #121212;
+    margin: auto;
+    font-size: 16px;
+    color: #a19e9e;
+    padding-top: 50px;
+    border-top: 1px solid #696868;
+}
+
+.pvs{
+    width: 1366px;
+    background: linear-gradient(90deg, #AE2A98,#5199F3);
+    height: 60px;
+    display: flex;
+    cursor: pointer;
+}
+
+.pvstext{
+    width: 50%;
+    height: 100%;;
+    padding-left: 20px;
+}
+
+.pvstext h5{
+    padding-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.pvstext p{
+    font-size: 14px;
+    font-weight: 550;
+    padding-top: 5px;
+    color: white;
+}
+
+.pvsbutton{
+    width: 50%;
+    height: 100%;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.pvsbutton button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    float: right;
+    
+}
+
+.pvsbutton button:hover{
+    background-color: #ccc9ba;
+}
