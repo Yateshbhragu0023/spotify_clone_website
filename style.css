@@ -82,6 +82,7 @@
     display: flex;
     transition: 0.2s;
     cursor: pointer;
+    border: 1px solid #282828;
 }
 
 .searchicon{
@@ -162,6 +163,8 @@
 .buttonsu button:hover{
     font-size: 16px;
     color: white;
+    outline: none;
+    border: none;
 }
 
 .buttonli{
@@ -186,6 +189,7 @@
 .buttonli button:hover {
     background-color:  rgb(199, 194, 194) ;
     transform: scale(1.04);
+    border: none;
 }
 
 .bodysection{
@@ -312,6 +316,7 @@
 .CYFP button:hover{
     color: #000000;
     background-color: rgb(214, 209, 209);
+    border: none;
 }
 
 .CYFP2{
